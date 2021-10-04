@@ -14,7 +14,7 @@ namespace Entities.Models
     public string slug { get; set; }
     public int num_market_pairs { get; set; }
     public DateTime date_added { get; set; }
-    public List<string> tags { get; set; }
+    //public List<string> tags { get; set; }
     public long? max_supply { get; set; }
     public double circulating_supply { get; set; }
     public double total_supply { get; set; }

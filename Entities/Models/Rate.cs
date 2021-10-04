@@ -8,7 +8,7 @@ namespace Entities.Models
 {
  public class Rate
   {
-    public Status status { get; set; }
+   // public Status status { get; set; }
     public List<Datum> data { get; set; }
   }
 }
